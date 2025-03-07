@@ -43,10 +43,12 @@ void printArray(int arr[], int n)
 
 int main()
 {
+    int a;
+    printf("Sanket Wakde");
     int arr[] = {1, 12, 9, 5, 6, 10};
     int n = sizeof(arr) / sizeof(arr[0]);
     heapSort(arr, n);
-
+   // Made chanfjnvfn
     cout << "Sorted array is \n";
     printArray(arr, n);
 }
